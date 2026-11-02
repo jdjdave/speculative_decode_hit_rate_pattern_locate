@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "jdjdave-infersre_jd328"
+name = "jdjdave-speculative_decode_hit_rate_pattern_locate"
 version = "0.1.0"
 description = "用一组明示的正则规则扫描输入，报告推理服务 SRE 工程师·投机解码的命中率相关的命中行与片段"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://jdjdave.github.io"
-Repository = "https://github.com/jdjdave/infersre_jd328"
-Issues = "https://github.com/jdjdave/infersre_jd328/issues"
+Repository = "https://github.com/jdjdave/speculative_decode_hit_rate_pattern_locate"
+Issues = "https://github.com/jdjdave/speculative_decode_hit_rate_pattern_locate/issues"
 
 [project.scripts]
-infersre_jd328 = "infersre_jd328:main"
+speculative_decode_hit_rate_pattern_locate = "speculative_decode_hit_rate_pattern_locate:main"
 
 [tool.setuptools]
-py-modules = ["infersre_jd328"]
+py-modules = ["speculative_decode_hit_rate_pattern_locate"]

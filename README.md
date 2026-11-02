@@ -1,11 +1,11 @@
-# infersre_jd328
+# speculative_decode_hit_rate_pattern_locate
 
 **用规则在推理服务 SRE 工程师·投机解码的命中率里定位可疑位置。**
 
-`infersre_jd328` —— 用一组明示的正则规则扫描输入，报告推理服务 SRE 工程师·投机解码的命中率相关的命中行与片段
+`speculative_decode_hit_rate_pattern_locate` —— 用一组明示的正则规则扫描输入，报告推理服务 SRE 工程师·投机解码的命中率相关的命中行与片段
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`infersre_jd328.py` 拷走就能用
+- 单文件，`speculative_decode_hit_rate_pattern_locate.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install jdjdave-infersre_jd328
+pip install jdjdave-speculative_decode_hit_rate_pattern_locate
 ```
 
 装完直接用命令名调用：
 
 ```bash
-infersre_jd328 --help
+speculative_decode_hit_rate_pattern_locate --help
 ```
 
-也可以不用安装，直接把 `infersre_jd328.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `speculative_decode_hit_rate_pattern_locate.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ infersre_jd328 --help
 ## 用法
 
 ```bash
-python infersre_jd328.py --file input.txt
-python infersre_jd328.py --text "示例内容"
-python infersre_jd328.py --file input.txt --json
+python speculative_decode_hit_rate_pattern_locate.py --file input.txt
+python speculative_decode_hit_rate_pattern_locate.py --text "示例内容"
+python speculative_decode_hit_rate_pattern_locate.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python infersre_jd328.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_infersre_jd328.py
+python test_speculative_decode_hit_rate_pattern_locate.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_infersre_jd328.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/jdjdave/infersre_jd328>
+- GitHub 仓库：<https://github.com/jdjdave/speculative_decode_hit_rate_pattern_locate>
 
 ---
 
@@ -79,7 +79,7 @@ python test_infersre_jd328.py
 jdjdave 做推理服务 SRE 工程师·投机解码的命中率相关的问题，方向对标华为的负责人推理服务 SRE 工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://jdjdave.github.io>
-- 仓库：<https://github.com/jdjdave/infersre_jd328>
+- 仓库：<https://github.com/jdjdave/speculative_decode_hit_rate_pattern_locate>
 
 ## 许可
 
